@@ -1,0 +1,35 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start -c",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start -c --web",
+    "install:expo:latest": "npm install --no-save expo@latest",
+    "install:expo:next": "npm install --no-save expo@next",
+    "install:expo:last-good-web": "npm install --no-save expo@33.0.0-alpha.web.1",
+    "install:expo:first-bad-web": "npm install --no-save expo@33.0.0-alpha.web.2",
+    "install:expo:next-web": "npm install --no-save expo@33.0.0-alpha.web.3",
+    "install:navigation:old-alpha": "npm install --no-save react-navigation@3.5.0-alpha.0",
+    "install:navigation:latest": "npm install --no-save react-navigation@latest",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "33.0.0-alpha.web.3",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.3.tar.gz",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@expo/webpack-config": "0.5.6",
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0",
+    "react-dom": "^16.8.6",
+    "react-native-web": "^0.11.4"
+  },
+  "private": true
+}
