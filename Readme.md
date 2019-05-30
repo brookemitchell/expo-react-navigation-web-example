@@ -1,6 +1,7 @@
 How to run:
 
 `npm install`
+
 `npm run web`
 
 Currently you should see the error (caused by react-native-gesture-handler)
