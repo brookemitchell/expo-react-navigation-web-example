@@ -3,7 +3,7 @@ How to run:
 `npm install`
 `npm run web`
 
-Currently you should see the error 
+Currently you should see the error (caused by react-native-gesture-handler)
 
 ```
 TypeError: Cannot assign to read only property 'exports' of object '#<Object>'
